@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+This is an entertainment website similar to Netflix that display a list of movies and TV shows and provides the users to signup and login to the website and also bookmark their favourite movies and TV shows.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# AlmaBetter Entertainment web app solution
 
-## Available Scripts
+This project is created in response to the capstone project for module 5 of Full stack web development course for Almabetter.
 
-In the project directory, you can run:
+### Deployment Link-
+frontend-https://entertainment-app-frontend-styv.onrender.com
+backend-https://entertainment-app-2-0.onrender.com/api/v1/user/register
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Overview
+The Entertainment App is designed to offer users a centralized platform to explore, discover, and bookmark their favorite movies and TV series.
+It aims to enhance the user experience by providing a comprehensive and user-friendly interface.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Users are be able to:
+- SignUp for the website with their fullName email and password.
+- Login with their user and password.
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Navigate between Home, Movies, TV Series, and Bookmarked Shows pages
+- Add/Remove bookmarks from all movies and TV series
+- Search for relevant shows on all pages
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Built with
 
-### `npm run eject`
+- Semantic HTML5 markup
+- Axios
+- Tailwind CSS
+- Redux Toolkit
+- ExpressJS 
+- [React](https://reactjs.org/) - JS library
+- [Node](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/)
+- [Render](https://www.render.com)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### How to run
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-Clone the repository to your local system
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Run the following commands
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm install
+npm run dev
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Visit [https://localhost:5174/] to view your deployment.
